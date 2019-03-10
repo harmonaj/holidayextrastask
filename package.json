@@ -1,0 +1,41 @@
+{
+  "name": "holiday_extras_app",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "concurrently \"cd backend && node server.js\" \"cd client && npm start\"",
+    "build": "react-scripts build",
+    "eject": "react-scripts eject",
+    "test": "nyc mocha"
+  },
+  "nyc": {
+    "reporter": [
+      "lcov",
+      "text"
+    ],
+    "tempDirectory": "./coverage"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ajv": "^6.10.0",
+    "axios": "^0.18.0",
+    "body-parser": "^1.18.3",
+    "concurrently": "^4.1.0",
+    "express": "^4.16.4",
+    "express-validator": "^5.3.1",
+    "mongoose": "^5.4.13",
+    "morgan": "^1.9.1",
+    "react": "^16.5.0",
+    "react-dom": "^16.5.0",
+    "react-scripts": "1.1.5",
+    "sanitize": "^2.1.0",
+    "validator": "^10.11.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "nyc": "^13.3.0"
+  },
+  "description": ""
+}

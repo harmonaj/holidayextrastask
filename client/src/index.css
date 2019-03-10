@@ -1,0 +1,88 @@
+body{
+    font-family:Helvetica;
+    color: #555;
+    background: #C0C0C0;
+    margin: 10px 30px;
+}
+
+button{
+    display: block;
+    border-radius: 2px;
+    background-color: blue;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 16px;
+    padding: 2px;
+    width: 500px;
+    cursor: pointer;
+    margin: auto;
+}
+
+button.false{display: none;}
+
+form{
+  width: auto;
+  border-radius: 2%;
+  border: solid black;
+  border-width: thin;
+}
+
+input {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    display:inline-block;
+    *display: inline;     /* for IE7*/
+    zoom:1;              /* for IE7*/
+    vertical-align:middle;
+    margin-left:20px;
+    width:400px;
+}
+
+label {
+    display:inline-block;
+    *display: inline;     /* for IE7*/
+    zoom:1;              /* for IE7*/
+    float: left;
+    padding-top: 5px;
+    text-align: right;
+    width: 500px;
+}
+
+li{
+    padding: 15px 0;
+    background: #eee;
+    list-style-type: none;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 10px 0;
+    border-radius: 4px;
+    display: center;
+    width: 75%;
+}
+
+p{
+  width:500px;
+  text-align: left;
+}
+
+span{
+    display: inline-block;
+    margin: 0 20px;
+    color: blue;
+}
+span.dist{
+    color: green;
+    float: right;
+}
+
+span.false{
+    border-radius: 10px;
+    width: 10px;
+    height: 10px;
+    background: #ff5252;
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
