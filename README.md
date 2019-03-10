@@ -2,6 +2,7 @@ Please follow these instructions for the deployment of the Web API.  This has be
 
 Please note that this app has been left in development mode and has not been built.
 
+When interacting with the API, it can be done through the React/HTML front end or through Postman/curl, depending on your preferences.  It will auto launch a web browser for you to use with the instructions below, but you can just as easily use Postman to interact with the API by launching it and using GET/POST/PUT/DELETE requests in the same way you normally would.  It is all done through port 3001 on your machine, so for example, to post data using Postman, you would use localhost:3001/api/postData and select the POST method/request through the dropdown on the left.  All required entries then go through the body as normal, but please ensure that the 'raw' radio button is selected for the data and that JSON is used on the respective drop down.  Alternatively, follow the instructions below for use through a web front end.
 
 
 1) Download/clone the Github repository into a directory or area of your choice.
