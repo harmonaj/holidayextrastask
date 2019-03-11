@@ -16,7 +16,7 @@ When interacting with the API, it can be done through the React/HTML front end o
 
 3) Load up Terminal or your respective CLI for your operating system.
 
-4) Switch to the directory where the Github repository has been downloaded to (or go to where the clone of it is), typically with the 'cd' command.  For example, if your repository has been downloaded as a zip file (please ensure you have unzipped the contents first if this is the case) and is in a folder called 'webpapi' in your root directory, a command such as 'cd webapi' may switch to it.  You will then need to change into the sub-directory called 'holidayextrastask' using the 'cd' command.
+4) Switch to the directory where the Github repository has been downloaded to (or go to where the clone of it is), typically with the 'cd' command.  For example, if your repository has been downloaded as a zip file (please ensure you have unzipped the contents first if this is the case) and is in a folder called 'webpapi' in your root directory, a command such as 'cd webapi' may switch to it.  You will then need to change into the sub-directory called 'holidayextrastask-master' using the 'cd' command.
 
 5) Type in 'npm install' and let the application download all required dependencies.
 
